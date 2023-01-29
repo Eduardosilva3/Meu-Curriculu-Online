@@ -1,0 +1,9 @@
+version: '3.9'
+services: 
+  apache:
+    image: httpd:latest
+    container_name: meu-apache-teste
+    ports:
+    - '80:80'
+    volumes:
+    - /home/ubuntu/portifolio/Meu-Curriculu-Online:/usr/local/apache2/htdocs
