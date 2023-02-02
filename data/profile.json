@@ -84,5 +84,17 @@
       "period": "2022 - até o momento",
       "description": "Elaborar, dimensionar, Aprovar e executar projetos de energia solar para casas e grandes empresas"
     }
+  ],
+  "education":[
+    {
+      "institution" : "Instituto Federal de Pernambuco",
+      "course": "Análise e Desenvolvimento de Sistemas",
+      "period": "2022 - Cursando / 3º Período"
+    },
+    {
+      "institution" : "SENAI - PE",
+      "course": "Técnico em Eletrotécnica",
+      "period": "2014 - 2016"
+    }
   ]
 }

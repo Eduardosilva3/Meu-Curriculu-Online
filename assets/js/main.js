@@ -82,6 +82,25 @@ function updateExperience(profileData){
 
 }
 
+function updateEducation(profileData){
+    const education = document.getElementById('profile.education')
+
+   education.innerHTML = profileData.education.map(education => {
+    return `
+
+        <li>
+            <h3 class="title">${education.institution}</h3>
+            <span class="curso">${education.course}</span>
+            <p>${education.period}</p>
+
+        </li>
+    
+    
+    `
+   }).join('')
+
+}
+
 
 
 
@@ -95,6 +114,7 @@ function updateExperience(profileData){
     updateLanguages(profileData)
     updatePortifolio(profileData)
     updateExperience(profileData)
+    updateEducation(profileData)
     
 
 })()
