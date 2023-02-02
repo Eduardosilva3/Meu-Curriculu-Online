@@ -30,7 +30,7 @@
       },
       {
         "name": "css",
-        "logo": "https://raw.githubusercontent.com/Eduardosilva3/Meu-Curriculu-Online/main/data/imgs/css.png"
+        "logo": "assets/icons/css.svg"
       },
       {
         "name": "type",
@@ -58,15 +58,16 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "API - HelloBank",
+      "url": "https://github.com/Eduardosilva3/Hello_Bank_Projeto-IBM",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto Java - WindowsBuilder - TudoDeBom",
+      "url": "https://github.com/Eduardosilva3/TudoDeBom",
       "github": true
     }
+    
   ],
   "professionalExperience": [
     {
