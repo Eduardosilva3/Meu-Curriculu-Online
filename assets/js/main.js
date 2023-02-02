@@ -48,7 +48,7 @@ function updateLanguages(profileData){
 function updatePortifolio(profileData){
     const portfolio = document.getElementById('profile.portfolio')
 
-   portfolio.innerHTML = profileData.languages.map(project => {
+   portfolio.innerHTML = profileData.portfolio.map(project => {
     return `
 
         <li>
@@ -61,6 +61,30 @@ function updatePortifolio(profileData){
    }).join('')
 
 }
+
+
+function updateExperience(profileData){
+    const experiene = document.getElementById('profile.experience')
+
+   portfolio.innerHTML = profileData.professionalExperience.map(experience => {
+    return `
+
+        <li>
+            <h3 class="title">${experience.name}</h3>
+            <span class="period">${experience.period}</span>
+            <p>${experience.description}</p>
+    
+        </li>
+    
+    
+    `
+   }).join('')
+
+}
+
+
+
+
 
 (async function (){
 
