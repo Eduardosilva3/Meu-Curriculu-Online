@@ -39,6 +39,10 @@
       {
         "name": "docker",
         "logo": "assets/icons/docker.svg"
+      },
+      {
+        "name": "aws",
+        "logo": "assets/icons/aws.svg"
       }
     ],
     "softSkills": [
