@@ -66,7 +66,7 @@ function updatePortifolio(profileData){
 function updateExperience(profileData){
     const experiene = document.getElementById('profile.experience')
 
-   portfolio.innerHTML = profileData.professionalExperience.map(experience => {
+   experiene.innerHTML = profileData.professionalExperience.map(experience => {
     return `
 
         <li>
@@ -94,6 +94,7 @@ function updateExperience(profileData){
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortifolio(profileData)
+    updateExperience(profileData)
     
 
 })()
